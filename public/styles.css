@@ -1,0 +1,134 @@
+hr{
+    border:none;
+    border-top-style: dotted;
+    border-top-color: rgba(49, 49, 49, 0.979);
+    border-top-width: 10px;
+    height: 0px;
+    width:100px;
+   
+    margin: 50px auto 50px auto;
+
+}
+
+#user-home{
+    background-image: url("images/homepage-bg-image.jpg");
+    height: 690px;
+    width:auto;
+    opacity:0.7; 
+   
+   position:relative;
+   bottom:400px;
+   z-index: -1;
+
+}
+
+#user-front{
+    padding:auto auto auto auto;
+    height:480px;
+}
+
+#time{
+    text-align: center;
+    margin:10% auto 1% auto ;
+}
+#date{
+    text-align: center;
+}
+
+.search-area{
+    width: 50%;
+    margin: 2% auto 0 auto;
+}
+
+.frnt-btn{
+    margin: 5% auto 5% 30.8%;
+}
+
+.frnt-anc{
+    width:60%;
+}
+
+
+#feature-heading{
+    text-align: center;
+    padding: 1% auto 1% auto ;
+}
+
+#allot-img{
+    width:200px;
+}
+
+#remove-img{
+    width: 190px;
+}
+
+#update-img{
+    width:200px;
+}
+
+#allot-beds{
+    margin: 5% auto 5% 0;
+    width: 70%;
+    line-height: 2rem;
+}
+
+#allot-img{
+    float:left;
+    margin:0 5% 0 5%;
+}
+
+
+
+#remove-beds{
+    width:70%;
+    margin:5% 0 5% auto;
+    line-height: 2rem;
+}
+
+#remove-img{
+    float:right;
+    margin:0 5% 0 5%;
+}
+
+#update-beds{
+   margin:5% 0 5% 0;
+   width:70%;
+   line-height: 2rem;
+}
+
+#update-img{
+    float:left;
+    margin:0 5% 0 5%;
+}
+
+#news-article-heading{
+    text-align: center;
+}
+
+.news-slide{
+    margin: auto auto auto  10%;
+}
+
+footer{
+    font-size: 1.5rem;
+    margin: 100px auto auto 0;
+    padding: 20px 0 10px;
+    background-color: rgb(71, 71, 70);
+    text-align: center;
+    line-height: 3rem;
+}
+
+footer{
+    background-color:grey;
+}
+
+.foot-icon{
+    margin-left:1%;
+    margin-right:1%;
+    color: black;
+}
+
+.copyright{
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   
+
+    <!-- bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- bootstrap -->
+
+    <!-- bootstrap script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- bootstrap script --> 
+    
+    
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- css -->
+
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/6edc7c4dd2.js" crossorigin="anonymous"></script>
+    <!-- font-awesome -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>E-Hospital</title>
+</head>
+<body>
+
+
+    
+    <section id="title">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                <a class="navbar-brand" href="#" style="padding-right: 5%;">E-Hospital</a>
+           
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/add">Add</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/update1">Update</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#page_end">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+
+    <section id="user-wlcm">
+            <div id="user-front">
+                <h1 id="time"></h1>
+                <h4 id="date"></h4>
+
+                <div class="search-area">
+                    <div class="a1 frnt-btn">
+                    <a href="/add" ><button class="btn btn-lg btn-dark frnt-anc">Add</button></a>
+                    </div>
+                    <div class="a2 frnt-btn">
+                    <a href="/update1"><button class="btn btn-lg btn-dark frnt-anc">Update</button></a>
+                    </div>
+                </div>
+
+                <div id="user-home">
+                </div>
+
+            </div>
+    </section>
+
+
+    <section id="features">
+            <div id="show-features">
+                <h1 id="feature-heading">Features</h1>
+            </div>
+
+
+            <div id="allot-beds">
+
+                
+                <img id="allot-img" src="images/allot-bg-image.png" alt="Allotment Image">
+                <p>
+                <h2>Allot Room-Bed</h2>
+                This Feature in Hospital Management WebPage let the Hospital
+                manage the entry of Patient. Which includes the following details of
+                the Patient: Patient Name, Age of Patient, Aadhar Number, Contact Number, Date of entry,
+                Type of Bed and also Discharge Time.
+                This also shows a preview of the Patient Details on the same page
+                after the entry of patient data in database and alot it the required 
+                type of bed.
+                This software uses MongoDB a its Database.
+                </p>
+                
+            </div>
+
+            <hr>
+
+            <div id="remove-beds">
+
+                
+                <img id="remove-img" src="images/remove-bg-image.png" alt="Remove Image">
+                <p>
+                <h2>Remove Room-Bed</h2>
+                This Feature in Hospital Management WebPage let the Hospital
+                manage the Deletion of Patient. It found the Patient data associated 
+                with a particular name and contact number.
+                This searches the patient data and return the 
+                data of that patient and shows its details on the second page.
+                On pressing Discharge button on next page the Data will be removed
+                from the current database and insert it in new collection in which details 
+                of discharged patient is stored along with thier discharge time.
+                </p>
+                
+                
+            </div>
+
+            <hr>
+
+            <div id="update-beds">
+
+                
+                <img id="update-img" src="images/update-bg-image.png" alt="Update Image">
+                <p>
+                <h2>Fetch Data of Patient</h2>
+                This Feature in Hospital Management WebPage let the Hospital
+                manage the Deletion of Patient. It found the Patient data associated 
+                with a particular name and contact number.
+                This searches the patient data and return the 
+                data of that patient and shows its details on the second page.
+                </p>
+                
+            </div>
+
+            <hr>
+        </section>
+<script src="index.js"></script>
+    
+</body>
+
+<footer>
+    <a href="https://github.com/Shailesh-1111?tab=repositories"><i class="fa fa-github foot-icon"></i></a>
+    <a href="https://www.linkedin.com/in/shailesh-yadav-1318bb225/"><i class="fa fa-linkedin foot-icon"></i></a>
+    <a href="https://www.instagram.com/_i__shailesh/"><i class="fa fa-instagram foot-icon"></i></a>
+    <p class="copyright">© 2022 Shailesh Yadav.</p>
+</footer>
+
+
+
+</html>
